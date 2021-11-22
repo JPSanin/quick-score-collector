@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "684570098032",
+    "firebase_url": "https://quickscore-d861e-default-rtdb.firebaseio.com",
+    "project_id": "quickscore-d861e",
+    "storage_bucket": "quickscore-d861e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684570098032:android:daa6eae21b920b8f68f7b5",
+        "android_client_info": {
+          "package_name": "com.example.quickscorecollector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684570098032-23h2j7n7n18kq7km93d6241h7649huoo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdQQxXw3E8Yl3kfWw-eXhmc-jAf-P2G4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684570098032-23h2j7n7n18kq7km93d6241h7649huoo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

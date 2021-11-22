@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8FA"
+    tools:context=".TeamPickerActivity">
+
+    <Button
+        android:id="@+id/continueBtn2"
+        android:layout_width="193dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/backgroundbutton"
+        android:backgroundTint="@color/light_blue"
+        android:text="Continuar"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTextField"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/selectText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/rubikbold"
+        android:text="Local"
+        android:textColor="#121315"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="112dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/headerapp" />
+
+    <ImageView
+        android:id="@+id/cafeterosImg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectText"
+        app:srcCompat="@drawable/cafeteros" />
+
+    <ImageView
+        android:id="@+id/motilonesImg"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/teamCaliImg"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toEndOf="@+id/cafeterosImg"
+        app:layout_constraintTop_toBottomOf="@+id/selectText"
+        app:srcCompat="@drawable/motilones" />
+
+    <ImageView
+        android:id="@+id/teamCaliImg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectText"
+        app:srcCompat="@drawable/teamcali" />
+
+    <ImageView
+        android:id="@+id/caribbeanImg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cafeterosImg"
+        app:srcCompat="@drawable/caribbean" />
+
+    <ImageView
+        android:id="@+id/titanesImg"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/cimarronesImg"
+        app:layout_constraintStart_toEndOf="@+id/caribbeanImg"
+        app:layout_constraintTop_toBottomOf="@+id/motilonesImg"
+        app:srcCompat="@drawable/titanes" />
+
+    <ImageView
+        android:id="@+id/cimarronesImg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teamCaliImg"
+        app:srcCompat="@drawable/cimarrones" />
+
+    <ImageView
+        android:id="@+id/sabiosImg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caribbeanImg"
+        app:srcCompat="@drawable/sabios" />
+
+    <ImageView
+        android:id="@+id/tigrillosImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/bucarosImg"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toEndOf="@+id/sabiosImg"
+        app:layout_constraintTop_toBottomOf="@+id/titanesImg"
+        app:srcCompat="@drawable/tigrillos" />
+
+    <ImageView
+        android:id="@+id/bucarosImg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cimarronesImg"
+        app:srcCompat="@drawable/bucaros" />
+
+    <ImageView
+        android:id="@+id/corsariosImg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sabiosImg"
+        app:srcCompat="@drawable/corsarios" />
+
+    <ImageView
+        android:id="@+id/condoresImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/piratasImg"
+        app:layout_constraintStart_toEndOf="@+id/corsariosImg"
+        app:layout_constraintTop_toBottomOf="@+id/tigrillosImg"
+        app:srcCompat="@drawable/condores" />
+
+    <ImageView
+        android:id="@+id/piratasImg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bucarosImg"
+        app:srcCompat="@drawable/piratas" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
