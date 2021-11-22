@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quickscorecollector">
         <activity
+            android:name=".SuccessfulRegisterActivity"
+            android:exported="true" />
+        <activity
             android:name=".ScoreRegisterActivity"
             android:exported="true" />
         <activity

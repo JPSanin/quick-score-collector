@@ -104,28 +104,28 @@
         android:layout_width="56dp"
         android:layout_height="51dp"
         android:layout_marginStart="20dp"
-        app:layout_constraintBottom_toBottomOf="@+id/localTeamText2"
+        app:layout_constraintBottom_toBottomOf="@+id/awayTeamText"
         app:layout_constraintStart_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="@+id/localTeamText2"
+        app:layout_constraintTop_toTopOf="@+id/awayTeamText"
         app:srcCompat="@drawable/titanes" />
 
     <TextView
-        android:id="@+id/localTeamText2"
+        android:id="@+id/awayTeamText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TITANES"
         android:textAllCaps="true"
         android:textColor="#121315"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/localScore2"
-        app:layout_constraintEnd_toStartOf="@+id/localScore2"
+        app:layout_constraintBottom_toBottomOf="@+id/awayScore"
+        app:layout_constraintEnd_toStartOf="@+id/awayScore"
         app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toEndOf="@+id/visitanteImg"
-        app:layout_constraintTop_toTopOf="@+id/localScore2"
+        app:layout_constraintTop_toTopOf="@+id/awayScore"
         app:layout_constraintVertical_bias="0.458" />
 
     <EditText
-        android:id="@+id/localScore2"
+        android:id="@+id/awayScore"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginTop="13dp"
