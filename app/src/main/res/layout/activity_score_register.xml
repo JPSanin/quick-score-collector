@@ -4,6 +4,137 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F8F8FA"
     tools:context=".ScoreRegisterActivity">
 
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="193dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/backgroundbutton"
+        android:backgroundTint="@color/light_blue"
+        android:enabled="false"
+        android:text="Registrar Marcador"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTextField"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="112dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/headerapp" />
+
+    <TextView
+        android:id="@+id/textHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/rubikbold"
+        android:text="Ingresa el marcador"
+        android:textColor="#121315"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHead"
+        app:srcCompat="@drawable/rect" />
+
+    <EditText
+        android:id="@+id/localScore"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:fontFamily="@font/rubikregular"
+        android:hint="00"
+        android:inputType="textPersonName"
+        android:textColor="#121315"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/localTeamText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:text="Team Cali"
+        android:textAllCaps="true"
+        android:textColor="#121315"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/localScore"
+        app:layout_constraintEnd_toStartOf="@+id/localScore"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintStart_toEndOf="@+id/localImg"
+        app:layout_constraintTop_toTopOf="@+id/localScore" />
+
+    <ImageView
+        android:id="@+id/localImg"
+        android:layout_width="56dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/localTeamText"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/localTeamText"
+        app:layout_constraintVertical_bias="0.657"
+        app:srcCompat="@drawable/teamcali" />
+
+    <ImageView
+        android:id="@+id/visitanteImg"
+        android:layout_width="56dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/localTeamText2"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/localTeamText2"
+        app:srcCompat="@drawable/titanes" />
+
+    <TextView
+        android:id="@+id/localTeamText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TITANES"
+        android:textAllCaps="true"
+        android:textColor="#121315"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/localScore2"
+        app:layout_constraintEnd_toStartOf="@+id/localScore2"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toEndOf="@+id/visitanteImg"
+        app:layout_constraintTop_toTopOf="@+id/localScore2"
+        app:layout_constraintVertical_bias="0.458" />
+
+    <EditText
+        android:id="@+id/localScore2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:fontFamily="@font/rubikregular"
+        android:hint="00"
+        android:inputType="textPersonName"
+        android:textColor="#121315"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/localScore" />
 </androidx.constraintlayout.widget.ConstraintLayout>

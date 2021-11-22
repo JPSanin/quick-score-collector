@@ -49,7 +49,7 @@ public class TeamPickerActivity extends AppCompatActivity {
 
         selectText.setText(getIntent().getExtras().getString("select"));
 
-        continueBtn2.setEnabled(false);
+
 
 
 

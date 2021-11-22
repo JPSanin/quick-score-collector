@@ -15,6 +15,7 @@
         android:layout_marginBottom="32dp"
         android:background="@drawable/backgroundbutton"
         android:backgroundTint="@color/light_blue"
+        android:enabled="false"
         android:text="Continuar"
         android:textAllCaps="false"
         android:visibility="visible"
