@@ -52,7 +52,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
          */
         switch (v.getId()){
             case R.id.loginButton:
-               /* if(!emailTextField.getText().toString().isEmpty() && !passwordTextField.getText().toString().isEmpty()){
+                if(!emailTextField.getText().toString().isEmpty() && !passwordTextField.getText().toString().isEmpty()){
                     auth.signInWithEmailAndPassword(emailTextField.getText().toString(), passwordTextField.getText().toString()).addOnCompleteListener(
                             task -> {
                                 if(task.isSuccessful()){
@@ -66,13 +66,13 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                                 }
                             }
                     );
-                }*/
+                }
 
-                Intent i=new Intent (this, TeamSelectActivity.class);
+               /* Intent i=new Intent (this, TeamSelectActivity.class);
                 i.putExtra("home", "none");
                 i.putExtra("away", "none");
                 startActivity(i);
-                finish();
+                finish();*/
 
 
               /*  Insert Teams into FirebaseDatabase
