@@ -197,7 +197,7 @@ public class ScoreRegisterActivity extends AppCompatActivity {
                                                     t.getTablePoints() + 2,
                                                     t.getPointsScored() + s.getHomeTeamScore(),
                                                     t.getPointsConceded() + s.getAwayTeamScore(),
-                                                    (t.getPointsPerGame() + s.getHomeTeamScore()) / (t.getPlayedGames() + 1),
+                                                    (t.getPointsScored() + s.getHomeTeamScore()) / (t.getPlayedGames() + 1),
                                                     t.getPointsDifference() + s.getHomeTeamScore() - s.getAwayTeamScore(),
                                                     t.getStreak() + 1
                                             );
@@ -212,7 +212,7 @@ public class ScoreRegisterActivity extends AppCompatActivity {
                                                     t.getTablePoints() + 1,
                                                     t.getPointsScored() + s.getHomeTeamScore(),
                                                     t.getPointsConceded() + s.getAwayTeamScore(),
-                                                    (t.getPointsPerGame() + s.getHomeTeamScore()) / (t.getPlayedGames() + 1),
+                                                    (t.getPointsScored() + s.getHomeTeamScore()) / (t.getPlayedGames() + 1),
                                                     t.getPointsDifference() + s.getHomeTeamScore() - s.getAwayTeamScore(),
                                                     t.getStreak() - 1
                                             );
@@ -234,7 +234,7 @@ public class ScoreRegisterActivity extends AppCompatActivity {
                                                     t.getTablePoints() + 2,
                                                     t.getPointsScored() +  s.getAwayTeamScore(),
                                                     t.getPointsConceded() +s.getHomeTeamScore(),
-                                                    (t.getPointsPerGame() + s.getAwayTeamScore()) / (t.getPlayedGames() + 1),
+                                                    (t.getPointsScored() + s.getAwayTeamScore()) / (t.getPlayedGames() + 1),
                                                     t.getPointsDifference() + s.getAwayTeamScore() - s.getHomeTeamScore(),
                                                     t.getStreak() + 1
                                             );
@@ -249,7 +249,7 @@ public class ScoreRegisterActivity extends AppCompatActivity {
                                                     t.getTablePoints() + 1,
                                                     t.getPointsScored() +  s.getAwayTeamScore(),
                                                     t.getPointsConceded() +s.getHomeTeamScore(),
-                                                    (t.getPointsPerGame() + s.getAwayTeamScore()) / (t.getPlayedGames() + 1),
+                                                    (t.getPointsScored() + s.getAwayTeamScore()) / (t.getPlayedGames() + 1),
                                                     t.getPointsDifference() + s.getAwayTeamScore() - s.getHomeTeamScore(),
                                                     t.getStreak() -1
                                             );
